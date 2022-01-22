@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Tabella</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 1px solid rgb(200, 200, 200);
+            letter-spacing: 1px;
+            font-size: 0.8rem;
+        }
+
+        td, th {
+            border: 1px solid rgb(190, 190, 190);
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>Transazioni Novembre-Aprile</caption>
+        <colgroup>
+            <col>
+            <col style="background-color: lightgreen;">
+            <col style="background-color: lightcoral;">
+        </colgroup>
+        
+        <thead>
+            <tr>
+                <th>Mese</th>
+                <th>Entrate</th>
+                <th>Uscite</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Novembre</td>
+                <td>+$1.856</td>
+                <td>-$942</td>
+            </tr>
+            <tr>
+                <td>Dicembre</td>
+                <td>+$1.763</td>
+                <td>-$1.255</td>
+            </tr>
+            <tr>
+                <td>Gennaio</td>
+                <td>+$2.344</td>
+                <td>-$775</td>
+            </tr>
+            <tr>
+                <td>Febbraio</td>
+                <td>+$1.832</td>
+                <td>-$985</td>
+            </tr>
+            <tr>
+                <td>Marzo</td>
+                <td>+$1.815</td>
+                <td>-$1.019</td>
+            </tr>
+            <tr>
+                <td>Aprile</td>
+                <td>+$1.744</td>
+                <td>-$933</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Totale</td>
+                <td>+$11.354</td>
+                <td>-$5.909</td>
+            </tr>
+            <tr>
+                <td>Bilancio</td>
+                <td colspan="2" style="text-align: center; background-color: white;">+$5.545</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
